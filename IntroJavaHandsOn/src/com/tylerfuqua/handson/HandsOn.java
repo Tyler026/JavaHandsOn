@@ -8,13 +8,18 @@ public class HandsOn {
 		boolean atBeach = true;
 		
 		if (isSunny) {
-			System.out.println("wear sunglasses");
+			System.out.println("wear sunglasses!");
+			if (atBeach) {
+				System.out.println("Wear sunblock!");
+			} else {
+				System.out.println("Don't need sunblock.");
+			}
 		} else {
 			System.out.println("Don't need to wear sunglasses.");	
 		} if (atBeach) {
-			System.out.println("wear sunblock");
+			System.out.println("Come back tomorrow.");
 		} else {
-			System.out.println("don't need sunblock");
+			System.out.println("don't go to the beach.");
 		} 
 	}
 
